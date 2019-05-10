@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.ui-btn.my-tooltip-btn,
+.ui-btn.my-tooltip-btn:hover,
+.ui-btn.my-tooltip-btn:active {
+    background: none;
+    border: 10;
+}
+
+div#encabezdo{ 
+   background-color:#4682B4;
+   color:white;
+   padding:5px;
+}
+
+div#pie{ 
+   background-color:#4682B4;
+   color:white;
+   padding:5px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  border-top-style: solid;
+  border-top-color: #4682B4;
+}
+
+p#titulo{
+  
+  border-top-style: solid;
+  border-top-color: #4682B4;
+
+}
+
+h1#hos{
+	
+font-size:20px;
+
+}
+
+
+
+
+
+
+
+
+
+

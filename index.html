@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title> Aplicaciones Moviles </title>
+  <!-- /jquery-->
+<link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+  <!-- / Hojas de Estilo -->
+<link rel="stylesheet" type="text/css" href="fonts.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<link rel="stylesheet" type="text/css" href="menu.css">
+</head> 
+<body> 
+<div data-role="page" id="page" >
+
+<div data-role="header" id="encabezdo">
+<h1 id="hos"> H O S M A T I C K </h1>
+</div> 
+
+<div data-role="collapsible">
+<h2 data-icon="home"> Menu </h2>
+	<ul data-role="listview">
+    	<li><a href="#page2"><span class= "icon-users"></span> Nosotros </a></li>
+        <li><a href="#"><span class= "icon-wrench"></span> Servicos </a></li>
+        <li><a href="#"><span class= "icon-file-text"></span> Clientes </a></li>
+        <li><a href="#"> <span class= "icon-whatsapp"></span>Contacto </a></li>
+  </ul>
+</div>
+     
+   
+ <!-- Contenido  --> 
+ <div class="w3-container">
+  <h2 align="center"> Experiencia y Tecnología de Vanguardia </h2>
+  <p align="center" id="titulo"> SOLUCIONES PARA TU SEGURIDAD </p>
+  <ul class="w3-ul">
+ <!-- Popuo Basico --> 
+    <li class="w3-hover-blue"> <span class= "icon-users"></span> Equipo Hosmatick</li>
+    	<p align="justify" class="w3-hover-blue"> Nuestro Equipo de trabajo está formado por asesores y técnicos expertos en diseño, instalación e implementación de sistemas de seguridad CCTV, analizamos las necesidades de nuestro cliente, evaluamos el riesgo y proponemos una solución llave en mano a la justa medida de nuestros clientes. Nuestra tecnología es adaptativa e interactiva incluso podemos gestionar los sistemas vía remota de una manera sencilla.</p>
+ 
+ 
+ <!-- Lightpoup-->         
+<a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="Images/Equipo.jpg" alt="Equipo" style="width:30%"></a>
+<a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="Images/Equipo2.jpg" alt="Equipo2" style="width:30%"></a>
+<a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="Images/casa.jpg" alt="casa" style="width:30%"></a>
+<!-- Contenido  --> 
+<div data-role="popup" id="popup1" data-overlay-theme="b" data-theme="b" data-corners="false"  align="center">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src= "Images/Equipo.jpg"  style="max-height:512px;" alt="Equipo">
+</div>
+<div data-role="popup" id="popup2" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src= "Images/Equipo2.jpg"  style="max-height:512px;" alt="Equipo2">
+</div>
+<div data-role="popup" id="popup3" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src= "Images/casa.jpg"  style="max-height:512px;" alt="casa">
+</div>
+<!-- FinLightpoup-  -->  
+
+<!-- Video example  --> 
+ 
+<li class="w3-hover-blue" algin="center"> 
+    <a href="#popupVideo" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline"><span class= "icon-play"></span> Video </a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="a" data-tolerance="15,15" class="ui-content">
+    <iframe src="https://www.youtube.com/watch?v=TOZ-pfXlyDo" width="497" height="298" seamless></iframe>
+</div>
+</li>
+<!-- Video example  -->   
+    
+    <li class="w3-hover-green" align="center"> <span class= "icon-cogs"></span> Razones por las cuales Hosmatick es tu decisión más Inteligente</li>
+    <li class="w3-hover-red"> 1. Servicio de Alta Calidad.</li>
+    <li class="w3-hover-black"> 2. Experiencia en instalaciones de seguridad.</li>
+    <li class="w3-hover-orange">3. Soluciones Confiables y funcionales.</li>
+  </ul>
+</div>
+
+
+       <!-- / Menu -->
+    <div data-role="navbar" data-theme="c">
+		<ul>
+			<li><a href="https://www.facebook.com/"><span class= "icon-facebook"></span> Facebook</a></li>     
+			<li><a href="https://twitter.com/"><span class= "icon-twitter"></span> Twitter </a></li>
+			<li><a href="#"><span class= "icon-images"></span> Fotos </a></li>
+            <li><a href="#"><span class= "icon-phone"></span> Telefonos </a></li>
+		</ul>
+	</div><!-- /Fin Menu navbar -->
+
+
+<!-- Fin de Contenido -->  
+     
+    <div data-role="footer" id="pie">
+		<h4> © Abigail Rodriguez Estevez</h4>
+	</div>
+
+<!-- Pagina Principal -->  
+
+
+<!-- Segunda Pagina  --> 
+
+
+
+  
+<!-- Segunda Pagina  --> 
+
+
+</body>
+</html>
